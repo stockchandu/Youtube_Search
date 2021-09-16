@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href=./css/youtube.css">
+</head>
+
+
+<body>
+    <div id="nav_bar">
+        <div id="yt_logo">
+            <div><img src="./images/humberger2.png" alt=""></div>
+            <div><img src="./images/yt_logo.png" alt=""></div>
+        </div>
+
+        <div id="nav_search_box">
+            <div><input type="text" id="search_video" placeholder="Search"></div>
+            <div><button onclick="search_video()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                        height="30" viewBox="0 0 172 172" style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M74.53333,17.2c-31.59642,0 -57.33333,25.73692 -57.33333,57.33333c0,31.59642 25.73692,57.33333 57.33333,57.33333c13.73998,0 26.35834,-4.87915 36.24766,-12.97839l34.23203,34.23203c1.43802,1.49778 3.5734,2.10113 5.5826,1.57735c2.0092,-0.52378 3.57826,-2.09284 4.10204,-4.10204c0.52378,-2.0092 -0.07957,-4.14458 -1.57735,-5.5826l-34.23203,-34.23203c8.09924,-9.88932 12.97839,-22.50768 12.97839,-36.24766c0,-31.59642 -25.73692,-57.33333 -57.33333,-57.33333zM74.53333,28.66667c25.39937,0 45.86667,20.4673 45.86667,45.86667c0,25.39937 -20.46729,45.86667 -45.86667,45.86667c-25.39937,0 -45.86667,-20.46729 -45.86667,-45.86667c0,-25.39937 20.4673,-45.86667 45.86667,-45.86667z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg></button></div>
+            <!-- <div></div> -->
+        </div>
+    </div>
+
+
+    <div id="yt-show_left-right">
+        <div id="yt-first-child">
+
+            <div class="yt-left-bar">
+                <div><img src="./images/home.png" alt=""></div>
+                <div onclick="home()">Home</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/explore.png" alt=""></div>
+                <div>Explore</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/sub.png" alt=""></div>
+                <div>Subscriptions</div>
+            </div>
+            <div class="yt-left-bar bar">
+                <div>`</div>
+            </div>
+
+            <div class="yt-left-bar">
+                <div><img src="./images/lib.png" alt=""></div>
+                <div>Library</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/his.png" alt=""></div>
+                <div>History</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/.png" alt=""></div>
+                <div>Your videos</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/watch.png" alt=""></div>
+                <div>Watch later</div>
+            </div>
+            <div class="yt-left-bar">
+                <div><img src="./images/like.png" alt=""></div>
+                <div>Liked videos</div>
+            </div>
+            <div class="yt-left-bar bar">
+                <div>`</div>
+            </div>
+            <div class="yt-left-bar">
+                <div style="color:white">Subscriptions</div>
+            </div>
+            <div class="yt-left-bar">
+                <div></div>
+                <div>Google</div>
+            </div>
+            <div class="yt-left-bar">
+                <div></div>
+                <div>Amazon Prime</div>
+            </div>
+            <div class="yt-left-bar">
+                <div></div>
+                <div>Netflix</div>
+            </div>
+            <div id="show_video_click">
+
+                <div id="show_video"></div>
+            </div>
+        </div>
+
+        <div id="yt-thumb">
+
+
+
+        </div>
+    </div>
+ 
+    <script src="./script/youtube.js"></script>
+
+</body>
+
+</html>
